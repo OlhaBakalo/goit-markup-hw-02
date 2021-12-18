@@ -14,6 +14,7 @@
   --footer-background-color: #2f303a;
   --stroke-color-section: #000000;
   --stroke-color-link: #eeeeee;
+  --btn-text-color: #212121;
 }
 
 body {
@@ -173,4 +174,78 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* ----------------FOOTER SECTION --------------------- */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.footer-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-link-color);
+}
+
+.footer-map:hover,
+.footer-map:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-text-color);
+}
+
+/* ----------------PORTFOLIO SECTION --------------------- */
+
+.portfolio-button {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--btn-text-color);
+  background: var(--second-background-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-button-active {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+.option-header {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-text-color);
+}
+.option-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
